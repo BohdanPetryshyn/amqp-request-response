@@ -1,0 +1,29 @@
+{
+  "name": "amqp-request-response",
+  "version": "1.0.0",
+  "description": "AMQP request-reponse pattern implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BohdanPetryshyn/amqp-request-response.git"
+  },
+  "keywords": [
+    "amqp",
+    "request",
+    "response",
+    "node"
+  ],
+  "author": "BohdanPetryshyn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BohdanPetryshyn/amqp-request-response/issues"
+  },
+  "homepage": "https://github.com/BohdanPetryshyn/amqp-request-response#readme",
+  "dependencies": {
+    "prettier": "^2.0.2",
+    "uuid": "^7.0.3"
+  }
+}

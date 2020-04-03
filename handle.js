@@ -14,6 +14,7 @@ module.exports = channel => {
           ? buildResponseMessage(request.correlationId, error)
           : buildResponseMessage(request.correlationId, response);
         channel.sendToQueue(request.replyTo, responseMessage);
+        channel.ack(msg);
       });
     });
   };

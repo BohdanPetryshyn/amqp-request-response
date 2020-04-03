@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/BohdanPetryshyn/amqp-request-response#readme",
   "dependencies": {
+    "amqplib": "^0.5.5",
     "prettier": "^2.0.2",
     "uuid": "^7.0.3"
   }

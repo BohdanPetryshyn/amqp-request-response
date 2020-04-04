@@ -1,7 +1,7 @@
-const requester = require('./requester');
-const handler = require('./handler');
+const Requester = require('./main/Requester');
+const Handler = require('./main/Handler');
 
 module.exports = {
-  requester,
-  handler,
+  Requester,
+  Handler,
 };

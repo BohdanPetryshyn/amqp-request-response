@@ -4,7 +4,7 @@
   "description": "AMQP request-reponse pattern implementation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test/"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "amqplib": "^0.5.5",
     "prettier": "^2.0.2",
     "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "jest": "^25.2.7"
   }
 }

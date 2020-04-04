@@ -1,7 +1,7 @@
-const request = require('./request');
-const handle = require('./handle');
+const requester = require('./requester');
+const handler = require('./handler');
 
-module.exports = channel => ({
-  request: request(channel),
-  handle: handle(channel),
-});
+module.exports = {
+  requester,
+  handler,
+};
